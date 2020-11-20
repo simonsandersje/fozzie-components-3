@@ -64,19 +64,31 @@
 <script>
 import { globalisationServices } from '@justeat/f-services';
 
+<<<<<<< HEAD
 import ButtonComponent from '@justeat/f-button';
 import '@justeat/f-button/dist/f-button.css';
 import Card from '@justeat/f-card';
 import '@justeat/f-card/dist/f-card.css';
+=======
+// import ButtonComponent from '@justeat/f-button';
+// import Card from '@justeat/f-card';
+>>>>>>> c317e41... Add es
 import tenantConfigs from '../tenants';
 
 export default {
     name: 'CookieBanner',
 
+<<<<<<< HEAD
     components: {
         ButtonComponent,
         Card
     },
+=======
+    // components: {
+    //     ButtonComponent,
+    //     Card
+    // },
+>>>>>>> c317e41... Add es
 
     props: {
         locale: {
@@ -132,8 +144,18 @@ export default {
     padding: 0;
 }
 
+<<<<<<< HEAD
 .c-cookieBanner-link {
     color: $color-link-default;
+=======
+.cpBanner-button {
+    padding: 12px 1em;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 2px;
+    width: 288px;
+>>>>>>> c317e41... Add es
 }
 
 .c-cookieBanner-title {
