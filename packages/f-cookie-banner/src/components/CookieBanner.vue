@@ -120,6 +120,7 @@ export default {
     right: 0;
     z-index: 99999992;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
