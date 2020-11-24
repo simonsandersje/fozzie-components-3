@@ -5,7 +5,7 @@
   "main": "dist/f-cookie-banner.umd.min.js",
   "files": [
     "dist",
-    "test-utils" 
+    "test-utils"
   ],
   "homepage": "https://github.com/justeat/fozzie-components/tree/master/packages/f-cookie-banner",
   "contributors": [
@@ -41,6 +41,8 @@
     "extends @justeat/browserslist-config-fozzie"
   ],
   "dependencies": {
+    "@justeat/f-button": "^0.2.0",
+    "@justeat/f-card": "^0.8.0",
     "@justeat/f-services": "1.0.0"
   },
   "peerDependencies": {
