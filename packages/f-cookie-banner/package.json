@@ -41,8 +41,8 @@
     "extends @justeat/browserslist-config-fozzie"
   ],
   "dependencies": {
-    "@justeat/f-button": "^0.2.0",
-    "@justeat/f-card": "^0.8.0",
+    "@justeat/f-button": "0.2.0",
+    "@justeat/f-card": "0.8.0",
     "@justeat/f-services": "1.0.0"
   },
   "peerDependencies": {
