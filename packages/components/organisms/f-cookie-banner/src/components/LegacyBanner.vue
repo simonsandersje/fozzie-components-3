@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div :class="[$style['c-cookieWarning'], { [$style['c-cookieBanner--hidden']]: hideBanner }]">
+        <div :class="[$style['c-cookieWarning'], { [$style['c-cookieBanner--is-hidden']]: hideBanner }]">
             <div :class="$style['c-cookieWarning-inner']">
                 <p>
                     {{ $t('legacyBannerText') }}
