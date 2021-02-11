@@ -46,14 +46,15 @@ const defaultState = {
 
 const defaultActions = {
     getCheckout: jest.fn(),
-    patchCheckout: jest.fn(),
+    updateCheckout: jest.fn(),
     getAvailableFulfilment: jest.fn(),
     setAuthToken: jest.fn(),
     createGuestUser: jest.fn(),
     updateAddressDetails: jest.fn(),
     updateCustomerDetails: jest.fn(),
     updateFulfilmentTime: jest.fn(),
-    getBasket: jest.fn()
+    getBasket: jest.fn(),
+    getAddress: jest.fn()
 };
 
 const i18n = {
