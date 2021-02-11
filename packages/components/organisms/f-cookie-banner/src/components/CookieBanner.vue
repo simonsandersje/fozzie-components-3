@@ -67,6 +67,7 @@
     </div>
     <legacy-banner
         v-else
+        :should-hide-legacy-banner="shouldHideBanner"
         @hide-legacy-banner="hideBanner"
     />
 </template>
